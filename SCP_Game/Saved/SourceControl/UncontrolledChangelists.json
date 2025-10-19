@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Levels/LV_Tests.umap",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset"
+			]
+		}
+	]
+}
