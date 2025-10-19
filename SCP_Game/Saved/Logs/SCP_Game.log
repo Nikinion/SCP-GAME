@@ -2527,3 +2527,844 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.19-13.10.29:638][787]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1358.246704
 [2025.10.19-13.10.30:639][791]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.19-13.10.30:639][791]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1358.913818, Update Interval: 354.709930
+[2025.10.19-13.11.22:010][399]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.10.19-13.11.22:018][399]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.10.19-13.11.22:034][400]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.10.19-13.11.25:561][803]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Sprint
+[2025.10.19-13.11.25:562][803]LogContentBrowser: End creating deferred item NewInputAction
+[2025.10.19-13.11.26:665][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.11.26:665][933]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inputs/Inputs/IA_Sprint] ([1] browsable assets)...
+[2025.10.19-13.11.26:665][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inputs/Inputs/IA_Sprint]
+[2025.10.19-13.11.26:665][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inputs/Inputs/IA_Sprint" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Sprint.uasset" SILENT=true
+[2025.10.19-13.11.26:666][933]LogSavePackage: Moving output files for package: /Game/Bluprints/Inputs/Inputs/IA_Sprint
+[2025.10.19-13.11.26:666][933]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/IA_Sprint351F12704208B2C5DB81DC973C6DD5D1.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Sprint.uasset'
+[2025.10.19-13.11.26:667][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.898 ms (total: 1.73 sec)
+[2025.10.19-13.11.26:667][933]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.11.26:667][933]LogContentValidation: Enabled validators:
+[2025.10.19-13.11.26:667][933]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.11.26:667][933]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.11.26:667][933]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.11.26:667][933]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.11.26:667][933]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.11.26:667][933]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.11.26:667][933]AssetCheck: /Game/Bluprints/Inputs/Inputs/IA_Sprint Validating asset
+[2025.10.19-13.11.26:676][933]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../GitHub/SCP_Game/SCP_Game/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.19-13.11.29:178][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-13.11.29:178][221]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-13.11.29:178][221]LogWorld: UWorld::CleanupWorld for LV_Tests, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-13.11.29:179][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-13.11.29:179][221]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-13.11.29:182][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-13.11.29:203][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-13.11.29:203][221]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.19-13.11.29:203][221]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.10.19-13.11.29:204][221]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.10.19-13.11.29:209][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.10.19-13.11.29:254][225]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.10.19-13.11.42:529][813]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.11.42:558][813]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.11.42:558][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.11.42:558][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.11.42:565][813]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.11.42:565][813]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer637A5B81451AEF593295268C545C11F0.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.11.42:574][813]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.216 ms (total: 1.78 sec)
+[2025.10.19-13.11.42:607][813]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.11.42:607][813]LogContentValidation: Enabled validators:
+[2025.10.19-13.11.42:607][813]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.11.42:607][813]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.11.42:607][813]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.11.42:607][813]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.11.42:607][813]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.11.42:607][813]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.11.42:607][813]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.12.39:389][990]LogEditorTransaction: Undo Add Node
+[2025.10.19-13.12.44:874][607]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.12.44:899][607]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.12.44:934][607]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.12.44:934][607]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.12.44:934][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.12.44:940][607]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.12.44:940][607]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer01B595A94F0E412883C690821F16CEE6.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.12.44:948][607]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.921 ms (total: 1.85 sec)
+[2025.10.19-13.12.44:979][607]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.12.44:980][607]LogContentValidation: Enabled validators:
+[2025.10.19-13.12.44:980][607]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.12.44:980][607]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.12.44:980][607]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.12.44:980][607]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.12.44:980][607]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.12.44:980][607]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.12.44:980][607]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.13.12:956][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.13.12:982][856]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.13.13:014][856]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.13.13:014][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.13.13:014][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.13.13:021][856]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.13.13:021][856]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerD0A77A204CE7614CEFA4D692BDDD8307.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.13.13:030][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.625 ms (total: 1.92 sec)
+[2025.10.19-13.13.13:065][856]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.13.13:065][856]LogContentValidation: Enabled validators:
+[2025.10.19-13.13.13:065][856]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.13.13:065][856]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.13.13:065][856]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.13.13:065][856]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.13.13:065][856]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.13.13:065][856]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.13.13:065][856]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.13.14:155][976]LogSlate: Took 0.001070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.10.19-13.13.15:562][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.13.15:594][134]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.13.15:629][134]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.13.15:630][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.13.15:630][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.13.15:637][134]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.13.15:637][134]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerF11C601044C278F339F3A6964170111F.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.13.15:647][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.077 ms (total: 2.01 sec)
+[2025.10.19-13.13.15:688][134]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.13.15:688][134]LogContentValidation: Enabled validators:
+[2025.10.19-13.13.15:688][134]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.13.15:688][134]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.13.15:688][134]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.13.15:688][134]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.13.15:688][134]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.13.15:688][134]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.13.15:688][134]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.13.36:900][648]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.13.36:925][648]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.13.36:957][648]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.13.36:957][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.13.36:957][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.13.36:964][648]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.13.36:964][648]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerD740AD8F48607663C426188ABE7E8596.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.13.36:970][648]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.857 ms (total: 2.08 sec)
+[2025.10.19-13.13.37:003][648]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.13.37:003][648]LogContentValidation: Enabled validators:
+[2025.10.19-13.13.37:003][648]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.13.37:003][648]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.13.37:003][648]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.13.37:003][648]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.13.37:003][648]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.13.37:003][648]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.13.37:003][648]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.13.46:697][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.10.19-13.13.46:885][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.13.46:911][818]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.13.46:942][818]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.13.46:942][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.13.46:942][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.13.46:948][818]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.13.46:948][818]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerD1E8216A4BF0B8F53255ECAA5BE7FDAD.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.13.46:955][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.175 ms (total: 2.15 sec)
+[2025.10.19-13.13.46:991][818]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.13.46:991][818]LogContentValidation: Enabled validators:
+[2025.10.19-13.13.46:991][818]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.13.46:991][818]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.13.46:991][818]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.13.46:991][818]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.13.46:991][818]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.13.46:991][818]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.13.46:991][818]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.13.57:318][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.13.57:339][ 50]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.13.57:339][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.13.57:339][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.13.57:346][ 50]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.13.57:346][ 50]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerA9424F89483DA498BDAAB8B6CCD483D9.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.13.57:354][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave took 35.344 ms (total: 2.18 sec)
+[2025.10.19-13.13.57:388][ 50]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.13.57:388][ 50]LogContentValidation: Enabled validators:
+[2025.10.19-13.13.57:388][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.13.57:388][ 50]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.13.57:388][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.13.57:388][ 50]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.13.57:388][ 50]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.13.57:388][ 50]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.13.57:388][ 50]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.14.20:624][804]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.14.20:652][804]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.14.20:694][804]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.14.20:694][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.14.20:694][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.14.20:702][804]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.14.20:702][804]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerBCCE36EF47A1507FE2B3D18EC4ECDCEE.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.14.20:710][804]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.357 ms (total: 2.27 sec)
+[2025.10.19-13.14.20:745][804]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.14.20:745][804]LogContentValidation: Enabled validators:
+[2025.10.19-13.14.20:745][804]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.14.20:745][804]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.14.20:745][804]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.14.20:745][804]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.14.20:745][804]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.14.20:745][804]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.14.20:745][804]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.15.23:003][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.15.23:030][858]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.15.23:069][858]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.15.23:069][858]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.15.23:069][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.15.23:075][858]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.15.23:075][858]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer9B27D2AC453480DAF8F17193F102B4F4.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.15.23:083][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.021 ms (total: 2.35 sec)
+[2025.10.19-13.15.23:107][858]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.15.23:107][858]LogContentValidation: Enabled validators:
+[2025.10.19-13.15.23:107][858]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.15.23:107][858]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.15.23:107][858]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.15.23:107][858]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.15.23:107][858]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.15.23:107][858]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.15.23:107][858]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.15.37:566][556]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.15.37:595][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inputs/IMC_Deafult] ([1] browsable assets)...
+[2025.10.19-13.15.37:595][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inputs/IMC_Deafult]
+[2025.10.19-13.15.37:595][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inputs/IMC_Deafult" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/IMC_Deafult.uasset" SILENT=true
+[2025.10.19-13.15.37:597][556]LogSavePackage: Moving output files for package: /Game/Bluprints/Inputs/IMC_Deafult
+[2025.10.19-13.15.37:597][556]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/IMC_Deafult19CCA12E434AE25DDFB40491E259D8CE.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/IMC_Deafult.uasset'
+[2025.10.19-13.15.37:605][556]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.093 ms (total: 2.39 sec)
+[2025.10.19-13.15.37:640][556]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.15.37:640][556]LogContentValidation: Enabled validators:
+[2025.10.19-13.15.37:640][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.15.37:640][556]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.15.37:640][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.15.37:640][556]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.15.37:640][556]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.15.37:640][556]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.15.37:640][556]AssetCheck: /Game/Bluprints/Inputs/IMC_Deafult Validating asset
+[2025.10.19-13.16.37:517][535]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.16.37:546][535]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.16.37:578][535]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.16.37:578][535]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.16.37:578][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.16.37:585][535]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.16.37:585][535]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer1F3ED9094849325CC5E288B3DF49AE89.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.16.37:592][535]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.636 ms (total: 2.47 sec)
+[2025.10.19-13.16.37:624][535]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.16.37:624][535]LogContentValidation: Enabled validators:
+[2025.10.19-13.16.37:624][535]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.16.37:624][535]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.16.37:624][535]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.16.37:624][535]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.16.37:624][535]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.16.37:624][535]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.16.37:625][535]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.16.49:124][840]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.16.49:151][840]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.16.49:185][840]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.16.49:185][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.16.49:185][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.16.49:195][840]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.16.49:195][840]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerA187CE9E4AE5E6CB1BF6959ABF7DD411.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.16.49:203][840]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.547 ms (total: 2.55 sec)
+[2025.10.19-13.16.49:238][840]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.16.49:238][840]LogContentValidation: Enabled validators:
+[2025.10.19-13.16.49:238][840]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.16.49:238][840]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.16.49:238][840]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.16.49:238][840]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.16.49:238][840]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.16.49:238][840]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.16.49:238][840]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.16.49:357][852]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1737.964233
+[2025.10.19-13.16.49:521][871]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.19-13.16.49:521][871]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1738.119263, Update Interval: 337.587219
+[2025.10.19-13.16.49:750][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.19-13.16.50:001][917]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.16.50:031][917]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.16.50:060][917]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.16.50:060][917]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.16.50:060][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.16.50:068][917]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.16.50:068][917]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerFFB0A5D84C3E1157051ED281CA60C67F.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.16.50:075][917]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.323 ms (total: 2.62 sec)
+[2025.10.19-13.16.50:110][917]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.16.50:110][917]LogContentValidation: Enabled validators:
+[2025.10.19-13.16.50:110][917]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.16.50:110][917]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.16.50:110][917]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.16.50:110][917]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.16.50:110][917]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.16.50:110][917]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.16.50:110][917]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.16.50:829][999]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.19-13.16.50:834][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-13.16.50:834][999]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2025.10.19-13.16.50:836][999]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.10.19-13.16.50:852][  0]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-13.16.50:853][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001122s)
+[2025.10.19-13.16.50:853][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LV_Tests.LV_Tests to /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests (0.001162s)
+[2025.10.19-13.16.50:871][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.10.19-13.16.50:874][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tests
+[2025.10.19-13.16.50:875][  0]LogPlayLevel: PIE: World Init took: (0.001326s)
+[2025.10.19-13.16.50:875][  0]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.10.19-13.16.50:875][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-13.16.50:875][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-13.16.50:875][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-13.16.50:875][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-13.16.50:875][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-13.16.50:875][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-13.16.50:875][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-13.16.50:875][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-13.16.50:875][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-13.16.50:875][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-13.16.50:875][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-13.16.50:878][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-13.16.50:893][  0]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (2 — Focusrite USB Audio)
+[2025.10.19-13.16.50:893][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-13.16.50:893][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-13.16.50:893][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-13.16.50:894][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.10.19-13.16.50:894][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.10.19-13.16.50:895][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.10.19-13.16.50:895][  0]LogInit: FAudioDevice initialized with ID 12.
+[2025.10.19-13.16.50:895][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.10.19-13.16.50:895][  0]LogAudio: Display: Audio Device (ID: 12) registered with world 'LV_Tests'.
+[2025.10.19-13.16.50:895][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.19-13.16.50:900][  0]LogLoad: Game class is 'GM_Deafult_C'
+[2025.10.19-13.16.50:900][  0]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests up for play (max tick rate 0) at 2025.10.19-15.16.50
+[2025.10.19-13.16.50:900][  0]LogWorld: Bringing up level for play took: 0.000525
+[2025.10.19-13.16.50:901][  0]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_DeafultPlayer_C /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests:PersistentLevel.BP_DeafultPlayer_C_0)
+[2025.10.19-13.16.50:902][  0]PIE: Server logged in
+[2025.10.19-13.16.50:903][  0]PIE: Play in editor total start time 0,07 seconds.
+[2025.10.19-13.16.50:933][  1]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.19-13.16.53:702][329]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:710][330]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:718][331]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:726][332]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:734][333]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:743][334]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:750][335]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:759][336]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:767][337]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:776][338]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:784][339]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:793][340]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:800][341]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:809][342]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:818][343]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:826][344]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:835][345]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:843][346]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:850][347]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:860][348]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:867][349]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:876][350]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:884][351]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:892][352]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:901][353]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:910][354]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:918][355]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:925][356]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:934][357]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:942][358]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:950][359]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:959][360]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:968][361]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:976][362]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:985][363]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.53:993][364]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:002][365]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:009][366]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:017][367]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:026][368]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:034][369]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:042][370]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:051][371]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:059][372]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:068][373]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:075][374]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:084][375]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:092][376]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:101][377]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:109][378]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:117][379]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:126][380]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:134][381]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:143][382]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:151][383]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:159][384]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:168][385]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:176][386]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:184][387]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:192][388]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:201][389]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:209][390]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:218][391]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:226][392]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:235][393]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:243][394]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:251][395]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:259][396]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:268][397]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:276][398]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:284][399]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:292][400]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:302][401]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:309][402]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:318][403]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:326][404]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:334][405]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:343][406]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:351][407]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:360][408]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:368][409]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:377][410]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:384][411]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:393][412]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:401][413]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:410][414]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:418][415]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:426][416]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:435][417]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:444][418]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:452][419]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:459][420]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:468][421]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:477][422]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:485][423]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:493][424]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:502][425]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:510][426]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:518][427]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:526][428]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:535][429]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:543][430]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:551][431]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:560][432]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:568][433]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:576][434]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:584][435]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:594][436]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:601][437]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:610][438]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:618][439]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:626][440]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:635][441]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:643][442]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:652][443]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:659][444]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:668][445]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:675][446]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:685][447]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:693][448]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:702][449]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:710][450]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:718][451]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:726][452]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:735][453]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:743][454]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:751][455]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:759][456]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:768][457]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:776][458]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:784][459]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:794][460]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:801][461]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:809][462]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:818][463]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:826][464]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:835][465]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:842][466]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:851][467]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:860][468]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:868][469]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:875][470]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:883][471]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:893][472]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:900][473]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:909][474]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:918][475]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:926][476]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:935][477]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:942][478]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:951][479]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:959][480]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:968][481]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:976][482]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:984][483]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.54:993][484]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:001][485]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:009][486]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:018][487]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:026][488]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:035][489]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:043][490]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:051][491]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:059][492]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:068][493]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:075][494]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:084][495]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:093][496]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:100][497]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:110][498]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:117][499]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:127][500]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:135][501]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:142][502]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:151][503]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:159][504]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:168][505]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:176][506]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:184][507]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:193][508]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:201][509]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:209][510]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:218][511]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:226][512]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:235][513]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:243][514]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:251][515]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:260][516]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:268][517]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:275][518]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:284][519]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:293][520]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:301][521]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:309][522]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:318][523]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:326][524]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:335][525]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:343][526]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:351][527]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:360][528]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:367][529]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:375][530]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:383][531]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:394][532]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:401][533]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:409][534]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:418][535]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:427][536]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:434][537]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:442][538]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:451][539]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:459][540]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:467][541]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:475][542]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:484][543]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:493][544]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:501][545]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:510][546]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:518][547]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:526][548]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:534][549]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:542][550]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:551][551]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:560][552]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:568][553]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:575][554]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:584][555]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:593][556]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:601][557]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:610][558]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:618][559]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:627][560]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:634][561]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:642][562]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:651][563]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:659][564]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:667][565]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:675][566]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:684][567]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:693][568]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:701][569]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:709][570]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:718][571]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:726][572]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:734][573]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:742][574]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:751][575]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:759][576]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:768][577]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:776][578]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:784][579]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:792][580]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:801][581]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:809][582]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:818][583]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:826][584]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:834][585]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:843][586]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:851][587]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:859][588]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:868][589]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:875][590]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:884][591]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:893][592]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:902][593]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:909][594]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:918][595]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:927][596]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:934][597]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:942][598]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:951][599]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:959][600]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:967][601]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:975][602]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:984][603]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.55:992][604]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:001][605]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:009][606]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:019][607]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:026][608]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:034][609]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:043][610]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:051][611]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:059][612]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:068][613]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:076][614]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:084][615]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:093][616]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:101][617]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:109][618]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:117][619]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:126][620]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:134][621]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:142][622]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:150][623]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:159][624]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:168][625]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:176][626]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:184][627]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:193][628]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:201][629]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:210][630]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:218][631]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:226][632]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:234][633]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:242][634]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:251][635]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:259][636]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:268][637]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:276][638]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:284][639]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.16.56:293][640]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 2000.0
+[2025.10.19-13.16.57:228][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-13.16.57:228][749]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-13.16.57:228][749]LogWorld: UWorld::CleanupWorld for LV_Tests, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-13.16.57:228][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-13.16.57:230][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-13.16.57:232][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-13.16.57:250][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-13.16.57:250][749]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.19-13.16.57:250][749]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2025.10.19-13.16.57:251][749]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2025.10.19-13.16.57:256][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.19-13.16.57:320][751]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.10.19-13.17.11:308][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.17.11:329][388]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.17.11:363][388]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.17.11:363][388]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.17.11:363][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.17.11:372][388]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.17.11:372][388]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer6B773D9743A621D37B0D74A69B14685A.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.17.11:379][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.945 ms (total: 2.69 sec)
+[2025.10.19-13.17.11:409][388]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.17.11:409][388]LogContentValidation: Enabled validators:
+[2025.10.19-13.17.11:409][388]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.17.11:409][388]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.17.11:409][388]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.17.11:409][388]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.17.11:409][388]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.17.11:409][388]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.17.11:410][388]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.17.15:077][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.17.15:105][810]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.17.15:135][810]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.17.15:135][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.17.15:135][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.17.15:143][810]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.17.15:144][810]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerFB65EC90421B24745C2F9C9138D93AC7.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.17.15:150][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.791 ms (total: 2.76 sec)
+[2025.10.19-13.17.15:179][810]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.17.15:179][810]LogContentValidation: Enabled validators:
+[2025.10.19-13.17.15:179][810]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.17.15:179][810]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.17.15:179][810]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.17.15:179][810]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.17.15:179][810]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.17.15:179][810]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.17.15:179][810]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.17.15:596][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.10.19-13.17.15:962][891]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.17.15:990][891]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.17.16:021][891]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.17.16:021][891]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.17.16:021][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.17.16:029][891]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.17.16:029][891]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerA255668C48BAD559AD38E098DD1CA63E.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.17.16:037][891]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.899 ms (total: 2.84 sec)
+[2025.10.19-13.17.16:064][891]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.17.16:064][891]LogContentValidation: Enabled validators:
+[2025.10.19-13.17.16:064][891]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.17.16:064][891]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.17.16:064][891]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.17.16:064][891]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.17.16:064][891]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.17.16:064][891]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.17.16:064][891]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.17.16:924][992]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.19-13.17.16:928][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-13.17.16:958][992]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2025.10.19-13.17.16:959][992]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.10.19-13.17.16:968][993]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-13.17.16:969][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001191s)
+[2025.10.19-13.17.16:969][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LV_Tests.LV_Tests to /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests (0.001227s)
+[2025.10.19-13.17.16:987][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.10.19-13.17.16:989][993]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tests
+[2025.10.19-13.17.16:990][993]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2025.10.19-13.17.16:991][993]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.10.19-13.17.16:991][993]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-13.17.16:991][993]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-13.17.16:991][993]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-13.17.16:991][993]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-13.17.16:991][993]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-13.17.16:991][993]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-13.17.16:991][993]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-13.17.16:991][993]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-13.17.16:991][993]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-13.17.16:991][993]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-13.17.16:991][993]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-13.17.16:993][993]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-13.17.17:008][993]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (2 — Focusrite USB Audio)
+[2025.10.19-13.17.17:009][993]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-13.17.17:009][993]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-13.17.17:009][993]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-13.17.17:009][993]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.10.19-13.17.17:009][993]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.10.19-13.17.17:011][993]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.10.19-13.17.17:011][993]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.10.19-13.17.17:011][993]LogInit: FAudioDevice initialized with ID 13.
+[2025.10.19-13.17.17:011][993]LogAudio: Display: Audio Device (ID: 13) registered with world 'LV_Tests'.
+[2025.10.19-13.17.17:011][993]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.19-13.17.17:014][993]LogLoad: Game class is 'GM_Deafult_C'
+[2025.10.19-13.17.17:015][993]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests up for play (max tick rate 0) at 2025.10.19-15.17.17
+[2025.10.19-13.17.17:015][993]LogWorld: Bringing up level for play took: 0.000463
+[2025.10.19-13.17.17:016][993]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_DeafultPlayer_C /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests:PersistentLevel.BP_DeafultPlayer_C_0)
+[2025.10.19-13.17.17:016][993]PIE: Server logged in
+[2025.10.19-13.17.17:018][993]PIE: Play in editor total start time 0,09 seconds.
+[2025.10.19-13.17.17:048][994]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.19-13.17.18:279][137]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 2000.0
+[2025.10.19-13.17.20:998][461]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.17.22:023][584]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 2000.0
+[2025.10.19-13.17.23:832][801]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 600.0
+[2025.10.19-13.17.23:988][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-13.17.23:988][816]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-13.17.23:988][816]LogWorld: UWorld::CleanupWorld for LV_Tests, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-13.17.23:988][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-13.17.23:990][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-13.17.23:991][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-13.17.24:008][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-13.17.24:008][816]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.19-13.17.24:008][816]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.10.19-13.17.24:010][816]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.10.19-13.17.24:015][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.10.19-13.17.24:067][818]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.10.19-13.18.11:360][446]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.18.11:388][446]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.18.11:423][446]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.18.11:423][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.18.11:423][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.18.11:431][446]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.18.11:431][446]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerBE982B08439D5BFA1907D0ACF7109435.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.18.11:439][446]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.334 ms (total: 2.92 sec)
+[2025.10.19-13.18.11:469][446]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.18.11:469][446]LogContentValidation: Enabled validators:
+[2025.10.19-13.18.11:469][446]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.18.11:469][446]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.18.11:469][446]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.18.11:469][446]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.18.11:469][446]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.18.11:469][446]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.18.11:469][446]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.18.14:471][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.10.19-13.18.14:845][837]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.18.14:866][837]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.18.14:900][837]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.18.14:900][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.18.14:900][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.18.14:908][837]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.18.14:908][837]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer993EDD7043E20AF5CA6258815C820F4D.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.18.14:914][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.688 ms (total: 2.99 sec)
+[2025.10.19-13.18.14:955][837]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.18.14:955][837]LogContentValidation: Enabled validators:
+[2025.10.19-13.18.14:955][837]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.18.14:955][837]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.18.14:955][837]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.18.14:955][837]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.18.14:955][837]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.18.14:955][837]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.18.14:955][837]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.18.17:925][189]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.18.17:954][189]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.18.17:986][189]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.18.17:986][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.18.17:986][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.18.17:993][189]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.18.17:994][189]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer11C2B6C24F3369E8C78D21BA3496E0AE.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.18.18:001][189]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.498 ms (total: 3.06 sec)
+[2025.10.19-13.18.18:032][189]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.18.18:032][189]LogContentValidation: Enabled validators:
+[2025.10.19-13.18.18:032][189]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.18.18:032][189]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.18.18:032][189]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.18.18:032][189]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.18.18:033][189]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.18.18:033][189]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.18.18:033][189]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.18.21:272][553]LogEditorTransaction: Undo Move Node
+[2025.10.19-13.18.25:758][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.18.25:786][ 51]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.18.25:818][ 51]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.18.25:818][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.18.25:818][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.18.25:825][ 51]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.18.25:825][ 51]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerB55D8FA04F4742610667F89D38E8F569.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.18.25:832][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.903 ms (total: 3.13 sec)
+[2025.10.19-13.18.25:862][ 51]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.18.25:862][ 51]LogContentValidation: Enabled validators:
+[2025.10.19-13.18.25:862][ 51]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.18.25:862][ 51]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.18.25:862][ 51]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.18.25:862][ 51]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.18.25:862][ 51]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.18.25:862][ 51]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.18.25:862][ 51]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.18.41:378][895]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.18.41:402][895]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.18.41:402][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.18.41:402][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.18.41:413][895]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.18.41:414][895]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer7D4919B041C2A6EDFC999DB9BF3F6C90.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.18.41:422][895]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.213 ms (total: 3.18 sec)
+[2025.10.19-13.18.41:456][895]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.18.41:456][895]LogContentValidation: Enabled validators:
+[2025.10.19-13.18.41:456][895]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.18.41:456][895]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.18.41:456][895]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.18.41:456][895]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.18.41:456][895]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.18.41:456][895]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.18.41:456][895]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.18.41:870][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.10.19-13.18.42:097][959]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.18.42:124][959]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.18.42:155][959]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.18.42:155][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.18.42:155][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.18.42:163][959]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.18.42:163][959]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayerAD848E934049241F6557B2AA905924CE.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.18.42:170][959]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.772 ms (total: 3.25 sec)
+[2025.10.19-13.18.42:207][959]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.18.42:207][959]LogContentValidation: Enabled validators:
+[2025.10.19-13.18.42:207][959]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.18.42:207][959]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.18.42:207][959]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.18.42:207][959]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.18.42:207][959]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.18.42:207][959]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.18.42:207][959]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
