@@ -6,7 +6,15 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/GitHub/SCP_Game/SCP_Game/Content/Levels/LV_Tests.umap",
-				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset"
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/PlayerControler/Deafult/PC_Deafult.uasset",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/GameMode/Deafult/GM_Deafult.uasset",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/IMC_Deafult.uasset",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_d.uasset",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_MovmentForward.uasset",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_MovmentRight.uasset",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Movment.uasset",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Look.uasset"
 			]
 		}
 	]
