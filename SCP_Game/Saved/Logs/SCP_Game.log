@@ -8203,3 +8203,649 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2025.10.19-20.18.43:658][396]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
 [2025.10.19-20.18.43:658][396]LogContentBrowser: End creating deferred item NewFolder
 [2025.10.19-20.18.56:379][911]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2025.10.19-20.20.57:709][862]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.19-20.20.57:714][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-20.20.57:714][862]LogPlayLevel: Display: Creating online subsystem for client :Context_50
+[2025.10.19-20.20.57:716][862]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2025.10.19-20.20.57:733][863]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-20.20.57:735][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001489s)
+[2025.10.19-20.20.57:735][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LV_Tests.LV_Tests to /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests (0.001526s)
+[2025.10.19-20.20.57:752][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.19-20.20.57:756][863]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tests
+[2025.10.19-20.20.57:757][863]LogPlayLevel: PIE: World Init took: (0.001412s)
+[2025.10.19-20.20.57:758][863]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.10.19-20.20.57:758][863]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-20.20.57:758][863]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-20.20.57:758][863]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-20.20.57:758][863]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-20.20.57:758][863]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-20.20.57:758][863]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-20.20.57:758][863]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-20.20.57:758][863]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-20.20.57:758][863]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-20.20.57:758][863]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-20.20.57:758][863]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-20.20.57:760][863]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-20.20.57:776][863]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (2 — Focusrite USB Audio)
+[2025.10.19-20.20.57:776][863]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-20.20.57:776][863]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-20.20.57:776][863]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-20.20.57:777][863]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2025.10.19-20.20.57:777][863]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2025.10.19-20.20.57:779][863]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2025.10.19-20.20.57:779][863]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2025.10.19-20.20.57:779][863]LogInit: FAudioDevice initialized with ID 28.
+[2025.10.19-20.20.57:779][863]LogAudio: Display: Audio Device (ID: 28) registered with world 'LV_Tests'.
+[2025.10.19-20.20.57:779][863]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2025.10.19-20.20.57:782][863]LogLoad: Game class is 'GM_Deafult_C'
+[2025.10.19-20.20.57:783][863]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests up for play (max tick rate 0) at 2025.10.19-22.20.57
+[2025.10.19-20.20.57:783][863]LogWorld: Bringing up level for play took: 0.000664
+[2025.10.19-20.20.57:786][863]PIE: Server logged in
+[2025.10.19-20.20.57:788][863]PIE: Play in editor total start time 0,074 seconds.
+[2025.10.19-20.20.57:851][864]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.19-20.21.13:600][726]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 31.0
+[2025.10.19-20.21.14:101][786]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 30.0
+[2025.10.19-20.21.14:601][846]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 29.0
+[2025.10.19-20.21.15:102][906]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 28.0
+[2025.10.19-20.21.15:602][966]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 27.0
+[2025.10.19-20.21.16:102][ 26]LogBlueprintUserMessages: [BP_DeafultPlayer_C_0] 26.0
+[2025.10.19-20.21.18:478][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-20.21.18:478][305]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-20.21.18:478][305]LogWorld: UWorld::CleanupWorld for LV_Tests, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-20.21.18:478][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.21.18:480][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-20.21.18:482][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.21.18:496][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-20.21.18:497][305]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2025.10.19-20.21.18:497][305]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=4
+[2025.10.19-20.21.18:498][305]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=2
+[2025.10.19-20.21.18:503][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.10.19-20.21.18:580][307]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2025.10.19-20.21.24:685][ 16]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Bluprints/Inventory/ST_Item.ST_Item
+[2025.10.19-20.22.09:731][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.22.09:753][519]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/ST_Item] ([1] browsable assets)...
+[2025.10.19-20.22.09:753][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/ST_Item]
+[2025.10.19-20.22.09:753][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inventory/ST_Item" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/ST_Item.uasset" SILENT=true
+[2025.10.19-20.22.09:754][519]LogSavePackage: Moving output files for package: /Game/Bluprints/Inventory/ST_Item
+[2025.10.19-20.22.09:754][519]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/ST_ItemC2281CFE4A8D808B8A0698A882B60ADA.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/ST_Item.uasset'
+[2025.10.19-20.22.09:765][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 34.235 ms (total: 11.6 sec)
+[2025.10.19-20.22.09:800][519]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.22.09:800][519]LogContentValidation: Enabled validators:
+[2025.10.19-20.22.09:800][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.22.09:800][519]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.22.09:800][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.22.09:800][519]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.22.09:800][519]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.22.09:800][519]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.22.09:801][519]AssetCheck: /Game/Bluprints/Inventory/ST_Item Validating asset
+[2025.10.19-20.22.12:335][822]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.22.12:355][822]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/ST_Item] ([1] browsable assets)...
+[2025.10.19-20.22.12:355][822]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/ST_Item]
+[2025.10.19-20.22.12:355][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inventory/ST_Item" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/ST_Item.uasset" SILENT=true
+[2025.10.19-20.22.12:357][822]LogSavePackage: Moving output files for package: /Game/Bluprints/Inventory/ST_Item
+[2025.10.19-20.22.12:357][822]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/ST_ItemF84F87E448B580E6DD89C7AD9306ADD8.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/ST_Item.uasset'
+[2025.10.19-20.22.12:365][822]LogFileHelpers: InternalPromptForCheckoutAndSave took 29.862 ms (total: 11.6 sec)
+[2025.10.19-20.22.12:394][822]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.22.12:394][822]LogContentValidation: Enabled validators:
+[2025.10.19-20.22.12:394][822]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.22.12:394][822]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.22.12:394][822]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.22.12:394][822]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.22.12:394][822]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.22.12:394][822]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.22.12:394][822]AssetCheck: /Game/Bluprints/Inventory/ST_Item Validating asset
+[2025.10.19-20.22.13:100][906]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.22.13:127][906]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/ST_Item] ([1] browsable assets)...
+[2025.10.19-20.22.13:127][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/ST_Item]
+[2025.10.19-20.22.13:127][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inventory/ST_Item" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/ST_Item.uasset" SILENT=true
+[2025.10.19-20.22.13:128][906]LogSavePackage: Moving output files for package: /Game/Bluprints/Inventory/ST_Item
+[2025.10.19-20.22.13:129][906]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/ST_ItemFD1C7A5D4185ACDCC19B99B3BBE9D237.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/ST_Item.uasset'
+[2025.10.19-20.22.13:137][906]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.016 ms (total: 11.6 sec)
+[2025.10.19-20.22.13:167][906]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.22.13:167][906]LogContentValidation: Enabled validators:
+[2025.10.19-20.22.13:167][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.22.13:167][906]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.22.13:167][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.22.13:167][906]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.22.13:167][906]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.22.13:167][906]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.22.13:167][906]AssetCheck: /Game/Bluprints/Inventory/ST_Item Validating asset
+[2025.10.19-20.22.16:206][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.22.16:232][256]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/DT_Items] ([1] browsable assets)...
+[2025.10.19-20.22.16:232][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/DT_Items]
+[2025.10.19-20.22.16:232][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inventory/DT_Items" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/DT_Items.uasset" SILENT=true
+[2025.10.19-20.22.16:233][256]LogSavePackage: Moving output files for package: /Game/Bluprints/Inventory/DT_Items
+[2025.10.19-20.22.16:233][256]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/DT_Items5D868A464D5CC7E139D98D9482FF28E1.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/DT_Items.uasset'
+[2025.10.19-20.22.16:242][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.326 ms (total: 11.7 sec)
+[2025.10.19-20.22.16:269][256]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.22.16:269][256]LogContentValidation: Enabled validators:
+[2025.10.19-20.22.16:269][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.22.16:269][256]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.22.16:269][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.22.16:269][256]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.22.16:269][256]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.22.16:269][256]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.22.16:269][256]AssetCheck: /Game/Bluprints/Inventory/DT_Items Validating asset
+[2025.10.19-20.22.16:981][329]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Bluprints/Inventory/DT_Items.DT_Items
+[2025.10.19-20.22.57:567][392]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7654.982910
+[2025.10.19-20.22.58:566][395]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.19-20.22.58:566][395]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7655.648926, Update Interval: 316.018555
+[2025.10.19-20.24.56:014][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.10.19-20.24.56:020][746]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LV_Tests' took 0.072
+[2025.10.19-20.24.56:021][746]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Inventory] ([2] browsable assets)...
+[2025.10.19-20.24.56:028][746]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WigetBluprint/Inventory/WB_Inventory.WB_Inventory]
+[2025.10.19-20.24.56:028][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Inventory]
+[2025.10.19-20.24.56:034][746]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/WigetBluprint/Inventory/WB_Inventory_Auto4
+[2025.10.19-20.24.56:034][746]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_Inventory_Auto44B27A05B42825DB6944ABC89BD468254.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Saved/Autosaves/Game/UI/WigetBluprint/Inventory/WB_Inventory_Auto4.uasset'
+[2025.10.19-20.24.56:035][746]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.24.56:037][746]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WigetBluprint/Inventory/WB_Slot.WB_Slot]
+[2025.10.19-20.24.56:037][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.24.56:042][746]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/WigetBluprint/Inventory/WB_Slot_Auto4
+[2025.10.19-20.24.56:042][746]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_Slot_Auto477AAE5D34B88DD584DFFF79667DC9A41.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Saved/Autosaves/Game/UI/WigetBluprint/Inventory/WB_Slot_Auto4.uasset'
+[2025.10.19-20.24.56:043][746]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Players/BP_InventoryComponent] ([2] browsable assets)...
+[2025.10.19-20.24.56:043][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_InventoryComponent]
+[2025.10.19-20.24.56:055][746]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Bluprints/Players/BP_InventoryComponent_Auto4
+[2025.10.19-20.24.56:055][746]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_InventoryComponent_Auto4C94DBEFD436EB3FD679545A829173AB4.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Saved/Autosaves/Game/Bluprints/Players/BP_InventoryComponent_Auto4.uasset'
+[2025.10.19-20.24.56:055][746]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/Items/BP_DeafultItem] ([2] browsable assets)...
+[2025.10.19-20.24.56:055][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/Items/BP_DeafultItem]
+[2025.10.19-20.24.56:060][746]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Bluprints/Inventory/Items/BP_DeafultItem_Auto4
+[2025.10.19-20.24.56:060][746]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultItem_Auto46CFAD79F4ECF0FE53D0310A85A76B895.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Saved/Autosaves/Game/Bluprints/Inventory/Items/BP_DeafultItem_Auto4.uasset'
+[2025.10.19-20.24.56:060][746]LogFileHelpers: Auto-saving content packages took 0.041
+[2025.10.19-20.26.29:056][524]LogCSVImportFactory: Imported DataTable 'DT_Items' - 4 Problems
+[2025.10.19-20.26.29:056][524]LogCSVImportFactory: 0:Cannot find Property for column 'Stackable' in struct 'ST_Item'.
+[2025.10.19-20.26.29:056][524]LogCSVImportFactory: 1:Cannot find Property for column 'Thumbnail' in struct 'ST_Item'.
+[2025.10.19-20.26.29:056][524]LogCSVImportFactory: 2:Expected column 'Stacble' not found in input.
+[2025.10.19-20.26.29:056][524]LogCSVImportFactory: 3:Expected column 'Thumbnai' not found in input.
+[2025.10.19-20.26.34:899][524]LogSlate: Window 'Message' being destroyed
+[2025.10.19-20.26.34:906][524]Message dialog closed, result: Ok, title: Message, text: Cannot find Property for column 'Stackable' in struct 'ST_Item'.
+Cannot find Property for column 'Thumbnail' in struct 'ST_Item'.
+Expected column 'Stacble' not found in input.
+Expected column 'Thumbnai' not found in input.
+
+[2025.10.19-20.26.47:547][996]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.26.47:578][996]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/DT_Items] ([1] browsable assets)...
+[2025.10.19-20.26.47:578][996]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/DT_Items]
+[2025.10.19-20.26.47:578][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inventory/DT_Items" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/DT_Items.uasset" SILENT=true
+[2025.10.19-20.26.47:580][996]LogSavePackage: Moving output files for package: /Game/Bluprints/Inventory/DT_Items
+[2025.10.19-20.26.47:580][996]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/DT_Items8A6E60C3436A2B3F493C908541C850E7.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/DT_Items.uasset'
+[2025.10.19-20.26.47:588][996]LogFileHelpers: InternalPromptForCheckoutAndSave took 40.489 ms (total: 11.7 sec)
+[2025.10.19-20.26.47:618][996]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.26.47:618][996]LogContentValidation: Enabled validators:
+[2025.10.19-20.26.47:618][996]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.26.47:618][996]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.26.47:618][996]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.26.47:618][996]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.26.47:618][996]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.26.47:618][996]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.26.47:618][996]AssetCheck: /Game/Bluprints/Inventory/DT_Items Validating asset
+[2025.10.19-20.28.20:039][447]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WigetBluprint/Inventory/WB_Slot.WB_Slot
+[2025.10.19-20.28.20:040][447]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_133
+[2025.10.19-20.28.20:046][447]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_134
+[2025.10.19-20.28.37:804][371]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Specified Color entirely.
+[2025.10.19-20.28.37:806][371]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.37:808][371]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.37:870][372]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.37:871][372]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.37:877][372]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.37:882][372]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.19-20.28.37:952][373]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:017][374]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:024][374]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:091][375]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:093][375]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:223][377]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:226][377]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:293][378]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:360][379]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:361][379]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:362][379]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:423][380]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:424][380]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:426][380]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:426][380]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:432][380]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:499][381]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:500][381]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:502][381]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:563][382]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:632][383]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:633][383]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:691][384]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:696][384]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:768][386]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:826][387]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.38:826][387]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.28.40:271][539]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.10.19-20.28.46:922][191]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.19-20.28.59:958][707]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8017.343262
+[2025.10.19-20.29.00:098][724]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.19-20.29.00:098][725]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8017.475098, Update Interval: 304.936676
+[2025.10.19-20.29.07:706][632]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:707][632]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:708][632]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:709][632]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:766][633]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:767][633]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:774][633]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:835][634]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:891][635]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:897][635]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:959][636]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:959][636]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.07:959][636]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:014][637]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:080][638]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:081][638]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:136][639]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:141][639]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:202][640]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:202][640]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:258][641]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:264][641]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:324][642]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:326][642]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:447][644]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:448][644]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:503][645]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:503][645]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:503][645]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:509][645]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:569][646]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:630][647]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:690][648]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:809][650]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:811][650]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:866][651]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:871][651]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:931][652]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:989][653]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.08:990][653]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.10.19-20.29.15:469][410]LogEditorTransaction: Undo Set Vector Property
+[2025.10.19-20.29.20:929][ 17]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.10.19-20.29.30:594][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.29.30:623][128]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.29.30:626][128]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WigetBluprint/Inventory/WB_Slot.WB_Slot]
+[2025.10.19-20.29.30:626][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.29.30:626][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Slot" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset" SILENT=true
+[2025.10.19-20.29.30:630][128]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Slot
+[2025.10.19-20.29.30:631][128]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_Slot00B2DF6C45BFF637DD2DDF8A51EAEF9F.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset'
+[2025.10.19-20.29.30:640][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.504 ms (total: 11.7 sec)
+[2025.10.19-20.29.30:679][128]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.29.30:679][128]LogContentValidation: Enabled validators:
+[2025.10.19-20.29.30:679][128]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.29.30:679][128]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.29.30:679][128]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.29.30:679][128]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.29.30:679][128]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.29.30:679][128]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.29.30:679][128]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Slot Validating asset
+[2025.10.19-20.29.31:169][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.10.19-20.29.31:506][218]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.29.31:527][218]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.29.31:530][218]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WigetBluprint/Inventory/WB_Slot.WB_Slot]
+[2025.10.19-20.29.31:531][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.29.31:531][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Slot" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset" SILENT=true
+[2025.10.19-20.29.31:536][218]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Slot
+[2025.10.19-20.29.31:536][218]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_Slot8EF0FA7041C6AB37AA838D98048685EB.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset'
+[2025.10.19-20.29.31:544][218]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.348 ms (total: 11.8 sec)
+[2025.10.19-20.29.31:572][218]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.29.31:572][218]LogContentValidation: Enabled validators:
+[2025.10.19-20.29.31:572][218]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.29.31:572][218]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.29.31:572][218]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.29.31:572][218]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.29.31:572][218]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.29.31:572][218]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.29.31:572][218]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Slot Validating asset
+[2025.10.19-20.29.32:368][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.29.32:394][310]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.29.32:394][310]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.29.32:394][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Slot" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset" SILENT=true
+[2025.10.19-20.29.32:399][310]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Slot
+[2025.10.19-20.29.32:399][310]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_SlotBF1C92054DD3C6EA3E9A338EAD2E998F.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset'
+[2025.10.19-20.29.32:409][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 40.712 ms (total: 11.8 sec)
+[2025.10.19-20.29.32:446][310]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.29.32:446][310]LogContentValidation: Enabled validators:
+[2025.10.19-20.29.32:446][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.29.32:446][310]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.29.32:446][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.29.32:446][310]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.29.32:446][310]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.29.32:446][310]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.29.32:447][310]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Slot Validating asset
+[2025.10.19-20.29.32:631][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.29.32:660][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.29.32:660][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.29.32:660][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Slot" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset" SILENT=true
+[2025.10.19-20.29.32:665][331]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Slot
+[2025.10.19-20.29.32:665][331]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_SlotD9D45C0D42C74701FE95288A3C9EC2C4.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset'
+[2025.10.19-20.29.32:672][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 40.799 ms (total: 11.9 sec)
+[2025.10.19-20.29.32:712][331]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.29.32:712][331]LogContentValidation: Enabled validators:
+[2025.10.19-20.29.32:712][331]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.29.32:712][331]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.29.32:712][331]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.29.32:712][331]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.29.32:712][331]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.29.32:712][331]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.29.32:713][331]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Slot Validating asset
+[2025.10.19-20.29.56:206][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.19-20.29.56:827][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.29.56:856][ 74]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.29.56:857][ 74]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WigetBluprint/Inventory/WB_Slot.WB_Slot]
+[2025.10.19-20.29.56:857][ 74]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.29.56:857][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Slot" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset" SILENT=true
+[2025.10.19-20.29.56:861][ 74]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Slot
+[2025.10.19-20.29.56:861][ 74]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_SlotA47BB657439BFA943B7FA1BEB9684278.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset'
+[2025.10.19-20.29.56:871][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.703 ms (total: 11.9 sec)
+[2025.10.19-20.29.56:901][ 74]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.29.56:901][ 74]LogContentValidation: Enabled validators:
+[2025.10.19-20.29.56:901][ 74]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.29.56:901][ 74]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.29.56:901][ 74]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.29.56:901][ 74]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.29.56:901][ 74]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.29.56:901][ 74]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.29.56:901][ 74]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Slot Validating asset
+[2025.10.19-20.30.13:797][983]LogEditorTransaction: Undo Add Node
+[2025.10.19-20.30.27:989][608]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.30.28:019][608]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.30.28:022][608]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WigetBluprint/Inventory/WB_Slot.WB_Slot]
+[2025.10.19-20.30.28:022][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.30.28:022][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Slot" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset" SILENT=true
+[2025.10.19-20.30.28:026][608]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Slot
+[2025.10.19-20.30.28:027][608]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_Slot8128F0F2433AEBF136120F977A77E59F.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset'
+[2025.10.19-20.30.28:036][608]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.863 ms (total: 12.0 sec)
+[2025.10.19-20.30.28:070][608]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.30.28:070][608]LogContentValidation: Enabled validators:
+[2025.10.19-20.30.28:070][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.30.28:070][608]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.30.28:070][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.30.28:070][608]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.30.28:070][608]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.30.28:070][608]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.30.28:070][608]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Slot Validating asset
+[2025.10.19-20.30.30:923][949]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.30.30:952][949]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.30.30:952][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.30.30:952][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Slot" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset" SILENT=true
+[2025.10.19-20.30.30:958][949]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Slot
+[2025.10.19-20.30.30:959][949]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_Slot160543B64894CD263B35A8BC1BB4388F.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset'
+[2025.10.19-20.30.30:969][949]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.794 ms (total: 12.0 sec)
+[2025.10.19-20.30.31:006][949]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.30.31:006][949]LogContentValidation: Enabled validators:
+[2025.10.19-20.30.31:006][949]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.30.31:006][949]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.30.31:006][949]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.30.31:006][949]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.30.31:006][949]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.30.31:006][949]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.30.31:007][949]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Slot Validating asset
+[2025.10.19-20.30.31:576][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.19-20.30.31:922][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.30.31:951][ 48]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.30.31:954][ 48]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WigetBluprint/Inventory/WB_Slot.WB_Slot]
+[2025.10.19-20.30.31:954][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.30.31:954][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Slot" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset" SILENT=true
+[2025.10.19-20.30.31:961][ 48]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Slot
+[2025.10.19-20.30.31:961][ 48]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_SlotB7F1BA3D4EB494D830B7B184B71BA075.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset'
+[2025.10.19-20.30.31:970][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.472 ms (total: 12.1 sec)
+[2025.10.19-20.30.32:002][ 48]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.30.32:002][ 48]LogContentValidation: Enabled validators:
+[2025.10.19-20.30.32:002][ 48]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.30.32:002][ 48]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.30.32:002][ 48]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.30.32:002][ 48]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.30.32:002][ 48]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.30.32:002][ 48]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.30.32:003][ 48]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Slot Validating asset
+[2025.10.19-20.30.32:262][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.30.32:290][ 77]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Slot] ([2] browsable assets)...
+[2025.10.19-20.30.32:290][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Slot]
+[2025.10.19-20.30.32:290][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Slot" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset" SILENT=true
+[2025.10.19-20.30.32:295][ 77]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Slot
+[2025.10.19-20.30.32:295][ 77]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_Slot1EBECEC444453ADD5E7587AC859A67D7.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Slot.uasset'
+[2025.10.19-20.30.32:304][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.056 ms (total: 12.1 sec)
+[2025.10.19-20.30.32:341][ 77]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.30.32:341][ 77]LogContentValidation: Enabled validators:
+[2025.10.19-20.30.32:341][ 77]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.30.32:341][ 77]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.30.32:341][ 77]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.30.32:341][ 77]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.30.32:341][ 77]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.30.32:341][ 77]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.30.32:341][ 77]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Slot Validating asset
+[2025.10.19-20.30.33:560][215]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.19-20.30.33:566][215]LogPlayLevel: [PlayLevel] Compiling BP_DeafultItem before play...
+[2025.10.19-20.30.33:566][215]LogPlayLevel: [PlayLevel]   Compiling BP_InventoryComponent as a dependent...
+[2025.10.19-20.30.33:567][215]LogPlayLevel: [PlayLevel]   Compiling WB_Inventory as a dependent...
+[2025.10.19-20.30.33:616][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.19-20.30.33:619][215]LogPlayLevel: PlayLevel: Blueprint regeneration took 53 ms (3 blueprints)
+[2025.10.19-20.30.33:648][215]LogPlayLevel: Display: Creating online subsystem for client :Context_53
+[2025.10.19-20.30.33:650][215]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2025.10.19-20.30.33:660][216]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-20.30.33:662][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001520s)
+[2025.10.19-20.30.33:662][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LV_Tests.LV_Tests to /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests (0.001559s)
+[2025.10.19-20.30.33:682][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.19-20.30.33:684][216]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tests
+[2025.10.19-20.30.33:685][216]LogPlayLevel: PIE: World Init took: (0.001476s)
+[2025.10.19-20.30.33:686][216]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.10.19-20.30.33:686][216]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-20.30.33:686][216]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-20.30.33:686][216]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-20.30.33:686][216]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-20.30.33:686][216]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-20.30.33:686][216]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-20.30.33:686][216]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-20.30.33:686][216]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-20.30.33:686][216]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-20.30.33:686][216]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-20.30.33:686][216]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-20.30.33:687][216]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-20.30.33:705][216]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (2 — Focusrite USB Audio)
+[2025.10.19-20.30.33:705][216]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-20.30.33:705][216]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-20.30.33:705][216]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-20.30.33:705][216]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2025.10.19-20.30.33:705][216]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2025.10.19-20.30.33:708][216]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2025.10.19-20.30.33:708][216]LogInit: FAudioDevice initialized with ID 29.
+[2025.10.19-20.30.33:708][216]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2025.10.19-20.30.33:708][216]LogAudio: Display: Audio Device (ID: 29) registered with world 'LV_Tests'.
+[2025.10.19-20.30.33:708][216]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2025.10.19-20.30.33:711][216]LogLoad: Game class is 'GM_Deafult_C'
+[2025.10.19-20.30.33:712][216]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests up for play (max tick rate 0) at 2025.10.19-22.30.33
+[2025.10.19-20.30.33:712][216]LogWorld: Bringing up level for play took: 0.000583
+[2025.10.19-20.30.33:714][216]PIE: Server logged in
+[2025.10.19-20.30.33:716][216]PIE: Play in editor total start time 0,151 seconds.
+[2025.10.19-20.30.33:762][217]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.19-20.30.43:248][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-20.30.43:248][339]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-20.30.43:248][339]LogWorld: UWorld::CleanupWorld for LV_Tests, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-20.30.43:248][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.30.43:249][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-20.30.43:252][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.30.43:266][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-20.30.43:266][339]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2025.10.19-20.30.43:266][339]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=4
+[2025.10.19-20.30.43:267][339]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=2
+[2025.10.19-20.30.43:272][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.19-20.30.43:331][341]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2025.10.19-20.30.51:847][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.30.51:873][341]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/WigetBluprint/Inventory/WB_Inventory] ([2] browsable assets)...
+[2025.10.19-20.30.51:873][341]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WigetBluprint/Inventory/WB_Inventory]
+[2025.10.19-20.30.51:873][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WigetBluprint/Inventory/WB_Inventory" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Inventory.uasset" SILENT=true
+[2025.10.19-20.30.51:878][341]LogSavePackage: Moving output files for package: /Game/UI/WigetBluprint/Inventory/WB_Inventory
+[2025.10.19-20.30.51:878][341]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/WB_InventoryC9E6BD3D4AB52064E751639696E83A9A.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/UI/WigetBluprint/Inventory/WB_Inventory.uasset'
+[2025.10.19-20.30.51:888][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.347 ms (total: 12.1 sec)
+[2025.10.19-20.30.51:917][341]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.30.51:917][341]LogContentValidation: Enabled validators:
+[2025.10.19-20.30.51:917][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.30.51:917][341]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.30.51:917][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.30.51:917][341]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.30.51:917][341]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.30.51:917][341]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.30.51:918][341]AssetCheck: /Game/UI/WigetBluprint/Inventory/WB_Inventory Validating asset
+[2025.10.19-20.30.56:307][855]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.30.56:333][855]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/ST_Item] ([1] browsable assets)...
+[2025.10.19-20.30.56:333][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/ST_Item]
+[2025.10.19-20.30.56:333][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inventory/ST_Item" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/ST_Item.uasset" SILENT=true
+[2025.10.19-20.30.56:334][855]LogSavePackage: Moving output files for package: /Game/Bluprints/Inventory/ST_Item
+[2025.10.19-20.30.56:334][855]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/ST_ItemFF22FDE84D2DF9CFF7631ABB16A14F8D.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/ST_Item.uasset'
+[2025.10.19-20.30.56:344][855]LogFileHelpers: InternalPromptForCheckoutAndSave took 37.110 ms (total: 12.2 sec)
+[2025.10.19-20.30.56:378][855]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.30.56:378][855]LogContentValidation: Enabled validators:
+[2025.10.19-20.30.56:378][855]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.30.56:378][855]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.30.56:378][855]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.30.56:378][855]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.30.56:378][855]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.30.56:378][855]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.30.56:378][855]AssetCheck: /Game/Bluprints/Inventory/ST_Item Validating asset
+[2025.10.19-20.31.15:341][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.31.15:369][110]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/DT_Items] ([1] browsable assets)...
+[2025.10.19-20.31.15:369][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/DT_Items]
+[2025.10.19-20.31.15:369][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inventory/DT_Items" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/DT_Items.uasset" SILENT=true
+[2025.10.19-20.31.15:372][110]LogSavePackage: Moving output files for package: /Game/Bluprints/Inventory/DT_Items
+[2025.10.19-20.31.15:372][110]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/DT_ItemsA2C945744042D1E1163A0FAFC9CE0365.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/DT_Items.uasset'
+[2025.10.19-20.31.15:382][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.304 ms (total: 12.2 sec)
+[2025.10.19-20.31.15:416][110]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.31.15:416][110]LogContentValidation: Enabled validators:
+[2025.10.19-20.31.15:416][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.31.15:416][110]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.31.15:416][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.31.15:416][110]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.31.15:416][110]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.31.15:416][110]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.31.15:416][110]AssetCheck: /Game/Bluprints/Inventory/DT_Items Validating asset
+[2025.10.19-20.31.15:933][171]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.31.15:960][171]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/DT_Items] ([1] browsable assets)...
+[2025.10.19-20.31.15:960][171]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/DT_Items]
+[2025.10.19-20.31.15:960][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inventory/DT_Items" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/DT_Items.uasset" SILENT=true
+[2025.10.19-20.31.15:961][171]LogSavePackage: Moving output files for package: /Game/Bluprints/Inventory/DT_Items
+[2025.10.19-20.31.15:961][171]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/DT_Items83FE62BC4A497389899F2A92E09D8D74.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/DT_Items.uasset'
+[2025.10.19-20.31.15:970][171]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.127 ms (total: 12.2 sec)
+[2025.10.19-20.31.16:011][171]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-20.31.16:011][171]LogContentValidation: Enabled validators:
+[2025.10.19-20.31.16:011][171]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.31.16:011][171]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.31.16:011][171]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.31.16:011][171]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.31.16:011][171]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.31.16:011][171]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.31.16:011][171]AssetCheck: /Game/Bluprints/Inventory/DT_Items Validating asset
+[2025.10.19-20.31.45:512][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.10.19-20.31.47:454][228]LogSlate: Window 'Save Content' being destroyed
+[2025.10.19-20.31.47:464][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-20.31.47:511][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inventory/Items/BP_DeafultItem] ([2] browsable assets)...
+[2025.10.19-20.31.47:511][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inventory/Items/BP_DeafultItem]
+[2025.10.19-20.31.47:511][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inventory/Items/BP_DeafultItem" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/Items/BP_DeafultItem.uasset" SILENT=true
+[2025.10.19-20.31.47:516][228]LogSavePackage: Moving output files for package: /Game/Bluprints/Inventory/Items/BP_DeafultItem
+[2025.10.19-20.31.47:516][228]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultItem52F86B1C47B33B61217E618B9A803D10.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inventory/Items/BP_DeafultItem.uasset'
+[2025.10.19-20.31.47:516][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Players/BP_InventoryComponent] ([2] browsable assets)...
+[2025.10.19-20.31.47:517][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_InventoryComponent]
+[2025.10.19-20.31.47:517][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_InventoryComponent" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_InventoryComponent.uasset" SILENT=true
+[2025.10.19-20.31.47:528][228]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_InventoryComponent
+[2025.10.19-20.31.47:528][228]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_InventoryComponent3CB21B0B44EDEDA194ABCFB7CE2F2305.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_InventoryComponent.uasset'
+[2025.10.19-20.31.47:540][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.765 ms (total: 12.3 sec)
+[2025.10.19-20.31.47:580][228]LogStall: Shutdown...
+[2025.10.19-20.31.47:580][228]LogStall: Shutdown complete.
+[2025.10.19-20.31.47:648][228]LogWorld: UWorld::CleanupWorld for World_134, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-20.31.47:648][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.31.47:654][228]LogWorld: UWorld::CleanupWorld for World_133, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-20.31.47:654][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.31.47:690][228]LogSlate: Window 'SCP_Game - Unreal Editor' being destroyed
+[2025.10.19-20.31.47:691][228]LogWindowsTextInputMethodSystem: Activated input method: Polski (Polska) - (Keyboard).
+[2025.10.19-20.31.48:489][228]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.19-20.31.48:489][228]LogContentValidation: Enabled validators:
+[2025.10.19-20.31.48:489][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-20.31.48:489][228]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-20.31.48:489][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-20.31.48:489][228]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-20.31.48:489][228]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-20.31.48:489][228]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-20.31.48:489][228]AssetCheck: /Game/Bluprints/Inventory/Items/BP_DeafultItem Validating asset
+[2025.10.19-20.31.48:489][228]AssetCheck: /Game/Bluprints/Players/BP_InventoryComponent Validating asset
+[2025.10.19-20.31.48:591][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.10.19-20.31.48:638][229]Cmd: QUIT_EDITOR
+[2025.10.19-20.31.48:638][229]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.19-20.31.48:642][229]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.19-20.31.48:644][229]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.19-20.31.48:644][229]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.19-20.31.48:645][229]LogWorld: UWorld::CleanupWorld for LV_Tests, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-20.31.48:645][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.31.48:653][229]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.10.19-20.31.48:655][229]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.19-20.31.48:655][229]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.19-20.31.48:682][229]LogWorld: UWorld::CleanupWorld for World_114, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-20.31.48:682][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.31.48:684][229]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-20.31.48:684][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.31.48:687][229]LogWorld: UWorld::CleanupWorld for World_115, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-20.31.48:687][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.31.48:689][229]LogWorld: UWorld::CleanupWorld for World_116, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-20.31.48:689][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-20.31.48:691][229]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.10.19-20.31.48:691][229]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.19-20.31.48:698][229]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.10.19-20.31.49:258][229]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.19-20.31.49:258][229]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.19-20.31.49:258][229]LogAudio: Display: Audio Device unregistered from world 'LV_Tests'.
+[2025.10.19-20.31.49:258][229]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.19-20.31.49:258][229]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.10.19-20.31.49:261][229]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.10.19-20.31.49:270][229]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.19-20.31.49:270][229]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.19-20.31.49:276][229]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.19-20.31.49:277][229]LogExit: Preparing to exit.
+[2025.10.19-20.31.49:320][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.10.19-20.31.49:329][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:329][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:329][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:330][229]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.19-20.31.49:891][229]LogEditorDataStorage: Deinitializing
+[2025.10.19-20.31.50:027][229]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.19-20.31.50:050][229]LogExit: Editor shut down
+[2025.10.19-20.31.50:055][229]LogExit: Transaction tracking system shut down
+[2025.10.19-20.31.50:284][229]LogExit: Object subsystem successfully closed.
+[2025.10.19-20.31.50:348][229]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.19-20.31.50:433][229]LogMemoryProfiler: Shutdown
+[2025.10.19-20.31.50:433][229]LogNetworkingProfiler: Shutdown
+[2025.10.19-20.31.50:433][229]LoadingProfiler: Shutdown
+[2025.10.19-20.31.50:433][229]LogTimingProfiler: Shutdown
+[2025.10.19-20.31.50:433][229]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.19-20.31.50:433][229]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.19-20.31.50:860][229]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.19-20.31.50:872][229]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.19-20.31.50:872][229]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3BCE4BC2-403F-FC59-7F75-4F9B61D55256%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=74a9efe04ea0fefa1463819f7f688622%7C3f4c4b4893994cd4baf51af2f67ea090%7C45d013cb-0f33-4a79-b7e6-30e69b5cbd7c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.19-20.31.51:434][229]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.19-20.31.51:442][229]RenderDocPlugin: plugin has been unloaded.
+[2025.10.19-20.31.51:442][229]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.19-20.31.51:447][229]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.19-20.31.51:447][229]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.19-20.31.51:447][229]LogPakFile: Destroying PakPlatformFile
+[2025.10.19-20.31.52:454][229]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.19-20.31.52:544][229]LogExit: Exiting.
+[2025.10.19-20.31.52:573][229]Log file closed, 10/19/25 22:31:52
