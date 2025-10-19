@@ -2335,3 +2335,195 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.19-13.07.49:480][546]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
 [2025.10.19-13.07.49:485][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
 [2025.10.19-13.07.49:538][548]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.10.19-13.08.31:124][889]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.08.31:146][889]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.08.31:183][889]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.08.31:183][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.08.31:183][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.08.31:189][889]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.08.31:189][889]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer17B0492446956847A581AB94A70DC7E5.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.08.31:197][889]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.087 ms (total: 1.32 sec)
+[2025.10.19-13.08.31:221][889]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.08.31:221][889]LogContentValidation: Enabled validators:
+[2025.10.19-13.08.31:221][889]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.08.31:221][889]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.08.31:221][889]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.08.31:221][889]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.08.31:221][889]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.08.31:221][889]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.08.31:221][889]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.08.45:391][542]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.19-13.08.45:399][542]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.19-13.08.45:418][543]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.19-13.08.47:260][633]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2025.10.19-13.08.47:260][633]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.19-13.08.51:533][980]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.10.19-13.08.51:542][980]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.10.19-13.08.51:558][981]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.10.19-13.08.58:276][779]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Jump
+[2025.10.19-13.08.58:277][779]LogContentBrowser: End creating deferred item NewInputAction
+[2025.10.19-13.08.58:894][851]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.08.58:913][851]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inputs/Inputs/IA_Jump] ([1] browsable assets)...
+[2025.10.19-13.08.58:913][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inputs/Inputs/IA_Jump]
+[2025.10.19-13.08.58:913][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inputs/Inputs/IA_Jump" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Jump.uasset" SILENT=true
+[2025.10.19-13.08.58:914][851]LogSavePackage: Moving output files for package: /Game/Bluprints/Inputs/Inputs/IA_Jump
+[2025.10.19-13.08.58:914][851]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/IA_Jump22822A8447E68FC1D5F407A2F79C9810.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Jump.uasset'
+[2025.10.19-13.08.58:922][851]LogFileHelpers: InternalPromptForCheckoutAndSave took 28.536 ms (total: 1.35 sec)
+[2025.10.19-13.08.58:960][851]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.08.58:960][851]LogContentValidation: Enabled validators:
+[2025.10.19-13.08.58:960][851]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.08.58:960][851]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.08.58:960][851]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.08.58:960][851]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.08.58:960][851]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.08.58:960][851]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.08.58:960][851]AssetCheck: /Game/Bluprints/Inputs/Inputs/IA_Jump Validating asset
+[2025.10.19-13.08.58:981][851]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../GitHub/SCP_Game/SCP_Game/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.19-13.09.07:394][803]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.09.07:426][803]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inputs/IMC_Deafult] ([1] browsable assets)...
+[2025.10.19-13.09.07:426][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inputs/IMC_Deafult]
+[2025.10.19-13.09.07:426][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inputs/IMC_Deafult" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/IMC_Deafult.uasset" SILENT=true
+[2025.10.19-13.09.07:427][803]LogSavePackage: Moving output files for package: /Game/Bluprints/Inputs/IMC_Deafult
+[2025.10.19-13.09.07:427][803]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/IMC_DeafultD5A1B310442A6A1E90F35C845308FAD1.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/IMC_Deafult.uasset'
+[2025.10.19-13.09.07:438][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.842 ms (total: 1.39 sec)
+[2025.10.19-13.09.07:477][803]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.09.07:477][803]LogContentValidation: Enabled validators:
+[2025.10.19-13.09.07:477][803]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.09.07:477][803]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.09.07:477][803]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.09.07:477][803]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.09.07:477][803]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.09.07:477][803]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.09.07:477][803]AssetCheck: /Game/Bluprints/Inputs/IMC_Deafult Validating asset
+[2025.10.19-13.09.48:427][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.09.48:452][581]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.09.48:487][581]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.09.48:487][581]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.09.48:487][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.09.48:494][581]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.09.48:495][581]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer2A6099C442C3F6EBD6D5C381526E262A.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.09.48:503][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 76.052 ms (total: 1.47 sec)
+[2025.10.19-13.09.48:537][581]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.09.48:537][581]LogContentValidation: Enabled validators:
+[2025.10.19-13.09.48:537][581]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.09.48:537][581]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.09.48:537][581]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.09.48:537][581]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.09.48:537][581]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.09.48:537][581]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.09.48:537][581]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.09.49:114][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.19-13.09.49:254][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.09.49:284][655]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.09.49:319][655]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.09.49:319][655]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.09.49:319][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.09.49:325][655]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.09.49:325][655]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer32F76CA64A5EE61275D712837858B9FD.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.09.49:334][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.385 ms (total: 1.55 sec)
+[2025.10.19-13.09.49:369][655]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.09.49:369][655]LogContentValidation: Enabled validators:
+[2025.10.19-13.09.49:369][655]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.09.49:369][655]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.09.49:369][655]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.09.49:369][655]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.09.49:369][655]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.09.49:369][655]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.09.49:369][655]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.09.57:986][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.09.58:014][632]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.09.58:045][632]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.09.58:045][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.09.58:045][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.09.58:051][632]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.09.58:051][632]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer6BC315074294E033FB1E1F9B23CBD6AE.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.09.58:059][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.044 ms (total: 1.62 sec)
+[2025.10.19-13.09.58:092][632]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.09.58:092][632]LogContentValidation: Enabled validators:
+[2025.10.19-13.09.58:092][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.09.58:092][632]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.09.58:092][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.09.58:092][632]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.09.58:092][632]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.09.58:092][632]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.09.58:092][632]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.09.58:687][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.10.19-13.09.58:842][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.09.58:863][711]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bluprints/Players/BP_DeafultPlayer] ([2] browsable assets)...
+[2025.10.19-13.09.58:897][711]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/Players/BP_DeafultPlayer.BP_DeafultPlayer]
+[2025.10.19-13.09.58:897][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Players/BP_DeafultPlayer]
+[2025.10.19-13.09.58:897][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Players/BP_DeafultPlayer" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset" SILENT=true
+[2025.10.19-13.09.58:904][711]LogSavePackage: Moving output files for package: /Game/Bluprints/Players/BP_DeafultPlayer
+[2025.10.19-13.09.58:905][711]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/BP_DeafultPlayer6F633031447EC9CDBA5989A4EED28F9B.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Players/BP_DeafultPlayer.uasset'
+[2025.10.19-13.09.58:914][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.947 ms (total: 1.69 sec)
+[2025.10.19-13.09.58:947][711]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.09.58:947][711]LogContentValidation: Enabled validators:
+[2025.10.19-13.09.58:947][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.09.58:947][711]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.09.58:947][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.09.58:947][711]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.09.58:947][711]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.09.58:947][711]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.09.58:947][711]AssetCheck: /Game/Bluprints/Players/BP_DeafultPlayer Validating asset
+[2025.10.19-13.10.00:898][944]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-13.10.00:925][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/Inputs/IMC_Deafult] ([1] browsable assets)...
+[2025.10.19-13.10.00:925][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/Inputs/IMC_Deafult]
+[2025.10.19-13.10.00:925][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/Inputs/IMC_Deafult" FILE="../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/IMC_Deafult.uasset" SILENT=true
+[2025.10.19-13.10.00:927][944]LogSavePackage: Moving output files for package: /Game/Bluprints/Inputs/IMC_Deafult
+[2025.10.19-13.10.00:927][944]LogSavePackage: Moving '../../../../GitHub/SCP_Game/SCP_Game/Saved/IMC_Deafult45BA16E0491276D69A377ABD3FCBA2B8.tmp' to '../../../../GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/IMC_Deafult.uasset'
+[2025.10.19-13.10.00:935][944]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.010 ms (total: 1.73 sec)
+[2025.10.19-13.10.00:970][944]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-13.10.00:970][944]LogContentValidation: Enabled validators:
+[2025.10.19-13.10.00:970][944]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-13.10.00:970][944]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-13.10.00:970][944]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-13.10.00:970][944]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-13.10.00:970][944]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-13.10.00:970][944]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-13.10.00:970][944]AssetCheck: /Game/Bluprints/Inputs/IMC_Deafult Validating asset
+[2025.10.19-13.10.02:005][ 66]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.19-13.10.02:010][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-13.10.02:038][ 66]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2025.10.19-13.10.02:040][ 66]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.10.19-13.10.02:049][ 67]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LV_Tests
+[2025.10.19-13.10.02:050][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001293s)
+[2025.10.19-13.10.02:050][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LV_Tests.LV_Tests to /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests (0.001333s)
+[2025.10.19-13.10.02:069][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.10.19-13.10.02:071][ 67]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Tests
+[2025.10.19-13.10.02:072][ 67]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2025.10.19-13.10.02:073][ 67]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.10.19-13.10.02:073][ 67]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-13.10.02:073][ 67]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-13.10.02:073][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-13.10.02:073][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-13.10.02:073][ 67]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-13.10.02:073][ 67]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-13.10.02:073][ 67]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-13.10.02:073][ 67]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-13.10.02:073][ 67]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-13.10.02:073][ 67]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-13.10.02:073][ 67]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-13.10.02:075][ 67]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-13.10.02:091][ 67]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (2 — Focusrite USB Audio)
+[2025.10.19-13.10.02:091][ 67]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-13.10.02:091][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-13.10.02:091][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-13.10.02:091][ 67]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.10.19-13.10.02:091][ 67]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.10.19-13.10.02:093][ 67]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.10.19-13.10.02:093][ 67]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.10.19-13.10.02:093][ 67]LogInit: FAudioDevice initialized with ID 11.
+[2025.10.19-13.10.02:093][ 67]LogAudio: Display: Audio Device (ID: 11) registered with world 'LV_Tests'.
+[2025.10.19-13.10.02:093][ 67]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.19-13.10.02:097][ 67]LogLoad: Game class is 'GM_Deafult_C'
+[2025.10.19-13.10.02:097][ 67]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests up for play (max tick rate 0) at 2025.10.19-15.10.02
+[2025.10.19-13.10.02:097][ 67]LogWorld: Bringing up level for play took: 0.000487
+[2025.10.19-13.10.02:098][ 67]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_DeafultPlayer_C /Game/Levels/UEDPIE_0_LV_Tests.LV_Tests:PersistentLevel.BP_DeafultPlayer_C_0)
+[2025.10.19-13.10.02:099][ 67]PIE: Server logged in
+[2025.10.19-13.10.02:100][ 67]PIE: Play in editor total start time 0,09 seconds.
+[2025.10.19-13.10.02:130][ 68]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.19-13.10.29:638][787]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1358.246704
+[2025.10.19-13.10.30:639][791]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.19-13.10.30:639][791]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1358.913818, Update Interval: 354.709930

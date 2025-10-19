@@ -14,7 +14,8 @@
 				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_MovmentForward.uasset",
 				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_MovmentRight.uasset",
 				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Movment.uasset",
-				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Look.uasset"
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Look.uasset",
+				"D:/GitHub/SCP_Game/SCP_Game/Content/Bluprints/Inputs/Inputs/IA_Jump.uasset"
 			]
 		}
 	]
